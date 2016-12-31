@@ -1,0 +1,26 @@
+---
+title: "Contacts"
+author: "cscientist"
+date: "December 31, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Contacts
+
+*My name is CScientist*  
+
+
+Here is the contact list:  
+  - a   London          
+  - b   New York
+
+
+```{r cars}
+summary(cars)
+```
+
+
