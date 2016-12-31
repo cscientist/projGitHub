@@ -1,0 +1,45 @@
+---
+title: "Practise2"
+author: "cscientist"
+date: "December 31, 2016"
+output: html_document
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = FALSE, results="hide")
+```
+
+```{r simulatedata}
+x<-rnorm(100); y<-x+rnorm(100,sd=0.5)
+```
+
+## R Markdown
+
+Here is list:  
+  - first item is apple  
+  - second item is orange
+  
+  Ordered list:  
+  1. first apple  
+  2. second orange  
+  
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure}
+plot(pressure)
+str(pressure)
+
+
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
