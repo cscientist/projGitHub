@@ -34,6 +34,17 @@ Here is list:
   - cake  
   - juice
 
+
+```{r showtable, results="asis"}
+library(xtable)
+library(datasets)
+data(airquality)
+fit<-lm(Ozone~Wind+Temp+Solar.R,data=airquality)
+xt<-xtable(summary(fit))
+print(xt,type="html")
+
+```
+
   
 ### Thats all
 
