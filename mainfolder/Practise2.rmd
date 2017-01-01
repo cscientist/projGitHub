@@ -21,7 +21,12 @@ Here is list:
   
   Ordered list:  
   1. first apple  
-  2. second orange  
+  2. second orange 
+  
+Another list:  
+  - flower  
+  - cake  
+  - juice
   
 
 
