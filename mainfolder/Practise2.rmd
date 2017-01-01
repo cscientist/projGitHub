@@ -17,18 +17,36 @@ x<-rnorm(100); y<-x+rnorm(100,sd=0.5)
 
 Here is list:  
   - first item is apple  
-  - second item is orange
+  - second item is orange  
+  - third item is banana  
+  - fourth item is pear  
+  - fifth item is apricot
   
   Ordered list:  
   1. first apple  
-  2. second orange 
-  
-Another list:  
+  2. second orange  
+  3. third banana  
+  4. fourth pear  
+  5. fifth apricot
+
+  Another list:  
   - flower  
   - cake  
   - juice
-  
 
+
+```{r showtable, results="asis"}
+library(xtable)
+library(datasets)
+data(airquality)
+fit<-lm(Ozone~Wind+Temp+Solar.R,data=airquality)
+xt<-xtable(summary(fit))
+print(xt,type="html")
+
+```
+
+  
+### Thats all
 
 
 ```{r cars}
