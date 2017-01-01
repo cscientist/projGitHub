@@ -16,7 +16,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Here is the contact list:  
   - a   London          
-  - b   New York
+  - b   New York  
+  - c   San Francisco  
+  - d   Chicago  
+  
+  Notes:
 
 
 ```{r cars}
