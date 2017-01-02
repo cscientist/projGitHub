@@ -20,7 +20,8 @@ Here is list:
   - second item is orange  
   - third item is banana  
   - fourth item is pear  
-  - fifth item is apricot
+  - fifth item is apricot  
+  - sixth item is watermelon
   
   Ordered list:  
   1. first apple  
